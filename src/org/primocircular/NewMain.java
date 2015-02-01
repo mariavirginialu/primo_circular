@@ -25,7 +25,7 @@ public class NewMain {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        CiclycPrimes cp = new CiclycPrimes(200000);
+        CiclycPrimes cp = new CiclycPrimes(1000000);
         System.out.println("Procesando....");
         Thread thread = new Thread(cp); 
         thread.start();
